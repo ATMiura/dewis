@@ -25,6 +25,7 @@ import Utils from'./js/utils/utils'
 import SvgUse from'./js/svgUse'
 import Sliders from'./js/sliders'
 import Media from './js/media'
+import WowAnimation from "./js/wow";
 
 // Load styles
 import './styles/app.js';
@@ -55,4 +56,5 @@ document.addEventListener('DOMContentLoaded', function() {
     App.SvgUse = new SvgUse();
     App.Sliders = new Sliders();
     App.Media = new Media();
+    App.Wow = new WowAnimation();
 });

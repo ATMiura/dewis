@@ -156,5 +156,8 @@ img {
 .block__subtitle:not(:last-child) {
   margin-bottom: 32px;
 }
+.block:not(:last-child) {
+  margin-bottom: 40px;
+}
 
 /*# sourceMappingURL=styles.css.map */
