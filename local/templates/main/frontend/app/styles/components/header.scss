@@ -1,0 +1,25 @@
+@import "../media.scss";
+@import "../variables.scss";
+
+.header {
+  margin-bottom: 90px;
+
+  &__container {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+
+  }
+
+  &__nav {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

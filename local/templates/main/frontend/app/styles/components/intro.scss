@@ -1,0 +1,16 @@
+@import "../variables";
+
+.intro {
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  &__title {
+    margin-bottom: 8px;
+  }
+  &__subtitle {
+    margin-bottom: 33px;
+  }
+}

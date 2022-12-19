@@ -1,0 +1,28 @@
+@import "../variables";
+
+.phone {
+  &__link {
+    display: inline-flex;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;
+    color: var(--c-black);
+    text-decoration: none;
+  }
+  &__text {
+    display: inline-block;
+    margin-right: 12px;
+  }
+  &__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    background: var(--c-primary);
+    border-radius: 20px;
+  }
+}

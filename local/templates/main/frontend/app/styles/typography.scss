@@ -1,0 +1,73 @@
+@import "variables";
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+h1, .h1 {
+  font-size: 44px;
+  line-height: 1.14;
+}
+
+h2, .h2 {
+  margin-bottom: 40px;
+
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.19;
+}
+
+h3, .h3 {
+  font-size: 26px;
+  line-height: 1.23;
+}
+
+h4, .h4 {
+  margin-bottom: 8px;
+
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+h5, .h5 {
+  font-size: 20px;
+}
+
+h6, .h6 {
+  font-size: 19px;
+}
+
+p {
+  margin-bottom: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  small {
+    font-size: inherit;
+    opacity: .6;
+  }
+}
+
+blockquote {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+ol, ul {
+  margin-bottom: 0;
+  padding-left: 17px;
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,16 @@
+@import "media.scss";
+
+:root {
+  --c-black: black;
+  --c-white: #fff;
+
+  --c-primary: #C8BCFF;
+  --c-green: #D3FFDD;
+  --c-green-dark: #4B996B;
+  --c-grey: #F7F5FF;
+  --c-text: #242424;
+
+  --boxShadow: 0px 30px 55px rgba(0, 0, 0, 0.1);
+  --borderRadius: 6px;
+  --transition: .2s;
+}

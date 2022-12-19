@@ -1,0 +1,98 @@
+@custom-media --mobile-xs (max-width: 480px);
+@custom-media --mobile-s (max-width: 650px);
+@custom-media --mobile (max-width: 800px);
+@custom-media --mobile-above (min-width: 751px);
+@custom-media --tablet-below (max-width: 900px);
+@custom-media --tablet (max-width: 1000px);
+@custom-media --tablet-above (max-width: 1280px);
+@custom-media --desktop (min-width: 1367px) and (max-width: 1920px);
+@custom-media --desktop-below (max-width: 1365px);
+@custom-media --desktop-above (max-width: 1439px);
+@custom-media --container-below (max-width: 1440px);
+@custom-media --full (width: 1920px);
+@custom-media --full-below (max-width: 1919px);
+@custom-media --height-700 (min-height: 700px);
+@custom-media --height-900 (min-height: 900px);
+@custom-media --height-1000 (min-height: 1000px);
+:root {
+  --c-black: black;
+  --c-white: #fff;
+  --c-primary: #C8BCFF;
+  --c-green: #D3FFDD;
+  --c-green-dark: #4B996B;
+  --c-grey: #F7F5FF;
+  --c-text: #242424;
+  --boxShadow: 0px 30px 55px rgba(0, 0, 0, 0.1);
+  --borderRadius: 6px;
+  --transition: .2s;
+}
+
+.section:first-of-type {
+  padding-bottom: 70px;
+}
+.section:not(:first-of-type) {
+  padding: 70px 0;
+}
+.section__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.section--intro {
+  padding-top: 20px;
+}
+.section--intro.with-bg {
+  color: var(--c-white);
+}
+.section--intro.with-bg .intro__title,
+.section--intro.with-bg .phone__link,
+.section--intro.with-bg .nav-item__link {
+  color: var(--c-white);
+}
+.section--intro.with-bg .header {
+  margin-bottom: 114px;
+}
+.section--what .section__inner {
+  padding: 60px 0;
+}
+.section--develop ul, .section--develop ol {
+  padding-left: 23px;
+}
+.section--develop ul li::marker, .section--develop ol li::marker {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+.section--develop ul li:not(:last-child), .section--develop ol li:not(:last-child) {
+  margin-bottom: 12px;
+}
+.section--promo {
+  color: var(--c-white);
+}
+.section--about .button {
+  margin-top: 30px;
+}
+.section--experts .row {
+  gap: 40px 0;
+}
+.section--image {
+  text-align: center;
+}
+.section--form {
+  color: var(--c-white);
+}
+.section--form .section__inner {
+  max-width: 1440px;
+}
+.section--form .form-wrapper {
+  padding: 100px 76px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: var(--c-black);
+  background-image: url("../images/content/form-shape.svg");
+}
+.section--form .block {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=sections.css.map */

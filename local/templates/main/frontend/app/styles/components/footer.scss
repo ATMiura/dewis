@@ -1,0 +1,43 @@
+@import "../media.scss";
+@import "../variables.scss";
+
+.footer {
+  padding: 13px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+
+  background: var(--c-grey);
+
+  a {
+    color: #6A7383;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1280px;
+  }
+
+  &__policy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px 18px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px 18px;
+  }
+
+  .copyright {
+    margin-left: 31px;
+    color: #10253E;
+  }
+}

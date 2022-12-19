@@ -1,0 +1,61 @@
+@import "../variables";
+
+.expert-item {
+  $item: &;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  height: 100%;
+
+  padding: 28px 20px;
+
+  text-align: center;
+
+  border-radius: 4px;
+  background: var(--c-green);
+
+  &__picture {
+    background: none;
+  }
+
+  &__image {
+    border-radius: 100%;
+  }
+
+  &__info {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__name {
+    margin-bottom: 4px;
+
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  &--black {
+    flex-direction: row;
+    gap: 19px;
+
+    padding: 28px 36px;
+
+    color: var(--c-white);
+    background: var(--c-black);
+
+    #{$item}__picture {
+      min-width: 291px;
+    }
+
+    #{$item}__name {
+      margin-bottom: 6px;
+    }
+  }
+}

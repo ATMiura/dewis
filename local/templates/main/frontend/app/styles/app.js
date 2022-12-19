@@ -1,24 +1,22 @@
 /*Vendors*/
-import 'normalize.css';
-import 'animate.css'
+import './_normalize.sass';
+import 'animate.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-require("./variables.css");
-require("./styles.css");
-require("./bx-filter.css");
-require("./editor.css");
-require("./fancybox.css");
-require("./fonts.css");
-require("./forms.css");
-require("./grid.css");
-require("./helpers.css");
-require("./icons.css");
-require("./lazy-load.css");
-require("./media.css");
-require("./search.css");
+require("./variables.scss");
+require("./fonts.scss");
+require("./typography.scss");
+require("./grid.scss");
+require("./icons.scss");
+require("./sections.scss");
+require("./editor.scss");
+require("./forms.scss");
+require("./styles.scss");
+// require("./media.scss");
 
 /*All components*/
 
 function requireAll(requireContext) {
     return requireContext.keys().map(requireContext);
 }
-const modules = requireAll(require.context("./components", false, /.css$/));
+const modules = requireAll(require.context("./components", false, /.scss$/));
