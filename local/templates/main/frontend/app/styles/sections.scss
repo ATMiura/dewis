@@ -4,11 +4,15 @@
   $section: &;
 
   &:first-of-type {
-    padding-bottom: 70px;
+    /*padding-bottom: 70px;*/
   }
 
   &:not(:first-of-type) {
     padding: 70px 0;
+  }
+
+  &:last-of-type {
+    padding-bottom: 0;
   }
 
   &__inner {
@@ -17,7 +21,20 @@
   }
 
   &--intro {
-    padding-top: 20px;
+    padding-top: 68px;
+    padding-bottom: 21px;
+
+    background: var(--c-grey);
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 100%;
+      min-height: 512px;
+      background: #F7F5FF;
+      z-index: -1;
+    }
 
     &.with-bg {
       color: var(--c-white);
@@ -34,10 +51,18 @@
     }
   }
 
-  &--what {
-    #{$section}__inner {
-      padding: 60px 0;
+  &--services {
+    .section__body {
+      .row {
+        gap: 40px 0;
+      }
     }
+  }
+
+  &--what {
+    /*#{$section}__inner {
+      padding: 60px 0;
+    }*/
   }
 
   &--develop {
@@ -97,6 +122,10 @@
     .block {
       margin-bottom: 40px;
       text-align: center;
+    }
+
+    .section-bg {
+      padding-bottom: 0;
     }
   }
 }

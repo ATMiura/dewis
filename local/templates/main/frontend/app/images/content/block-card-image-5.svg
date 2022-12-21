@@ -1,0 +1,20 @@
+<svg width="361" height="158" viewBox="0 0 361 158" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_234_17775)">
+<rect x="0.5" y="0.105469" width="360" height="157" rx="4" fill="#F7F5FF"/>
+<path d="M1 61H361" stroke="black" stroke-dasharray="4 4"/>
+<path d="M1 100H159" stroke="black" stroke-dasharray="4 4"/>
+<path d="M207 100H365" stroke="black" stroke-dasharray="4 4"/>
+<circle cx="45.5" cy="68.6055" r="7.5" fill="#F7F5FF"/>
+<path d="M262.5 21.5C262.5 66.7902 226.008 103.5 181 103.5C135.992 103.5 99.5 66.7902 99.5 21.5C99.5 -23.7902 135.992 -60.5 181 -60.5C226.008 -60.5 262.5 -23.7902 262.5 21.5Z" stroke="black"/>
+<path d="M318.5 118.5C318.5 163.79 282.008 200.5 237 200.5C191.992 200.5 155.5 163.79 155.5 118.5C155.5 73.2098 191.992 36.5 237 36.5C282.008 36.5 318.5 73.2098 318.5 118.5Z" stroke="black"/>
+<path d="M206.5 118.5C206.5 163.79 170.008 200.5 125 200.5C79.9917 200.5 43.5 163.79 43.5 118.5C43.5 73.2098 79.9917 36.5 125 36.5C170.008 36.5 206.5 73.2098 206.5 118.5Z" stroke="black"/>
+<circle cx="181" cy="61" r="5.5" fill="black" stroke="#F7F5FF"/>
+<path d="M209.5 100C209.5 103.038 207.038 105.5 204 105.5C200.962 105.5 198.5 103.038 198.5 100C198.5 96.9624 200.962 94.5 204 94.5C207.038 94.5 209.5 96.9624 209.5 100Z" fill="black" stroke="#F7F5FF"/>
+<circle cx="158" cy="100" r="5.5" fill="black" stroke="#F7F5FF"/>
+</g>
+<defs>
+<clipPath id="clip0_234_17775">
+<rect x="0.5" y="0.105469" width="360" height="157" rx="4" fill="white"/>
+</clipPath>
+</defs>
+</svg>

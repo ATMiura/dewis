@@ -1,0 +1,60 @@
+@import "../variables";
+
+.block {
+  $block: &;
+
+  &__title {
+    margin-bottom: 12px;
+    color: inherit;
+  }
+
+  &__subtitle {
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__btn {
+
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  &--pics {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 4px;
+
+    #{$block}__el {
+      flex: 0 0 calc(25% - 3px);
+      max-width: calc(25% - 3px);
+      width: 100%;
+    }
+  }
+
+  &-card {
+    &__link {
+      color: var(--c-black);
+
+      &:hover {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
+    &__title {
+
+    }
+
+    &__picture {
+      margin-bottom: 20px;
+    }
+
+    &__image {
+
+    }
+  }
+}

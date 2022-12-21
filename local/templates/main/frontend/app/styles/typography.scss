@@ -58,9 +58,15 @@ p {
 }
 
 blockquote {
+  margin: 0;
+
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
 }
 
 ol, ul {

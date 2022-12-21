@@ -28,17 +28,31 @@
 }
 
 .section:first-of-type {
-  padding-bottom: 70px;
+  /*padding-bottom: 70px;*/
 }
 .section:not(:first-of-type) {
   padding: 70px 0;
+}
+.section:last-of-type {
+  padding-bottom: 0;
 }
 .section__inner {
   max-width: 1280px;
   margin: 0 auto;
 }
 .section--intro {
-  padding-top: 20px;
+  padding-top: 68px;
+  padding-bottom: 21px;
+  background: var(--c-grey);
+}
+.section--intro:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 512px;
+  background: #F7F5FF;
+  z-index: -1;
 }
 .section--intro.with-bg {
   color: var(--c-white);
@@ -51,8 +65,13 @@
 .section--intro.with-bg .header {
   margin-bottom: 114px;
 }
-.section--what .section__inner {
-  padding: 60px 0;
+.section--services .section__body .row {
+  gap: 40px 0;
+}
+.section--what {
+  /*.section__inner {
+    padding: 60px 0;
+  }*/
 }
 .section--develop ul, .section--develop ol {
   padding-left: 23px;
@@ -93,6 +112,9 @@
 .section--form .block {
   margin-bottom: 40px;
   text-align: center;
+}
+.section--form .section-bg {
+  padding-bottom: 0;
 }
 
 /*# sourceMappingURL=sections.css.map */

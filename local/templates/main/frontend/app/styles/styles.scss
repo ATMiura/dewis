@@ -69,7 +69,7 @@ picture, {
   display: block;
   font-size: 0;
   line-height: 0;
-  background: var(--c-green);
+  //background: var(--c-green);
 }
 
 figure {
@@ -104,36 +104,26 @@ img {
   }
 }
 
-.bg {
+.section-bg {
+  .section__inner {
+    padding: 60px 0;
+  }
+
   &--grey {
-    background: #F7F5FF;
-  }
-  &--black {
-    color: var(--c-grey);
-    background: var(--c-black);
-  }
-  &--primary {
-    background: var(--c-primary);
-  }
-}
-
-.block {
-  &__title {
-    margin-bottom: 12px;
-    color: inherit;
-  }
-
-  &__subtitle {
-    &:not(:last-child) {
-      margin-bottom: 32px;
+    .section__inner {
+      color: var(--c-black);
+      background: #F7F5FF;
     }
   }
-
-  &__btn {
-
+  &--black {
+    .section__inner {
+      color: var(--c-grey);
+      background: var(--c-black);
+    }
   }
-
-  &:not(:last-child) {
-    margin-bottom: 40px;
+  &--primary {
+    .section__inner {
+      background: var(--c-primary);
+    }
   }
 }
