@@ -18,6 +18,7 @@
   --c-black: black;
   --c-white: #fff;
   --c-primary: #C8BCFF;
+  --c-purple: #AA9CEB;
   --c-green: #D3FFDD;
   --c-green-dark: #4B996B;
   --c-grey: #F7F5FF;
@@ -109,11 +110,13 @@ picture {
 }
 
 figure {
-  padding: 44px 26px;
-  background: var(--c-green);
-}
-figure img:not(:last-child) {
-  margin-bottom: 40px;
+  /*padding: 44px 26px;
+  background: var(--c-green);*/
+  /*img {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+    }
+  }*/
 }
 
 img {
@@ -135,18 +138,18 @@ img {
   margin-bottom: 0;
 }
 
-.section-bg .section__inner {
+.section-bg {
   padding: 60px 0;
 }
-.section-bg--grey .section__inner {
+.section-bg--grey {
   color: var(--c-black);
   background: #F7F5FF;
 }
-.section-bg--black .section__inner {
+.section-bg--black {
   color: var(--c-grey);
   background: var(--c-black);
 }
-.section-bg--primary .section__inner {
+.section-bg--primary {
   background: var(--c-primary);
 }
 

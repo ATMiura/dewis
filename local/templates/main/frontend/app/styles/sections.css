@@ -18,6 +18,7 @@
   --c-black: black;
   --c-white: #fff;
   --c-primary: #C8BCFF;
+  --c-purple: #AA9CEB;
   --c-green: #D3FFDD;
   --c-green-dark: #4B996B;
   --c-grey: #F7F5FF;
@@ -97,7 +98,9 @@
   text-align: center;
 }
 .section--form {
+  padding: 0 !important;
   color: var(--c-white);
+  background-color: var(--c-black);
 }
 .section--form .section__inner {
   max-width: 1440px;
@@ -106,15 +109,11 @@
   padding: 100px 76px;
   background-repeat: no-repeat;
   background-position: center top;
-  background-color: var(--c-black);
   background-image: url("../images/content/form-shape.svg");
 }
 .section--form .block {
   margin-bottom: 40px;
   text-align: center;
-}
-.section--form .section-bg {
-  padding-bottom: 0;
 }
 
 /*# sourceMappingURL=sections.css.map */

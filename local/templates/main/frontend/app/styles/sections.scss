@@ -104,7 +104,9 @@
   }
 
   &--form {
+    padding: 0 !important;
     color: var(--c-white);
+    background-color: var(--c-black);
 
     #{$section}__inner {
       max-width: 1440px;
@@ -115,17 +117,12 @@
 
       background-repeat: no-repeat;
       background-position: center top;
-      background-color: var(--c-black);
       background-image: url("../images/content/form-shape.svg");
     }
 
     .block {
       margin-bottom: 40px;
       text-align: center;
-    }
-
-    .section-bg {
-      padding-bottom: 0;
     }
   }
 }
