@@ -70,3 +70,16 @@
 
   max-height: 118px;
 }
+
+.invalid {
+  .input {
+    background: #FFD2D2;
+  }
+}
+
+.error-tooltip {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 1.6;
+  color: #FFD2D2;
+}

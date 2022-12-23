@@ -31,6 +31,8 @@ import SvgUse from './js/svgUse'
 import Sliders from './js/sliders'
 import Media from './js/media'
 import WowAnimation from "./js/wow";
+import DataMasks from "./js/DataMasks";
+import Forms from "./js/forms/forms";
 
 // Load styles
 import './styles/app.js';
@@ -62,6 +64,8 @@ document.addEventListener('DOMContentLoaded', function () {
   App.Sliders = new Sliders();
   App.Media = new Media();
   App.Wow = new WowAnimation();
+  App.DataMasks = new DataMasks();
+  App.Forms = new Forms();
 
   const $root = $('html, body');
 

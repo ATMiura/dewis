@@ -871,24 +871,24 @@
                         Пригласим вас на встречу или созвонимся в удобное вам время.
                     </div>
                 </div>
-                <form action="" class="form">
+                <form action="" class="form" data-form>
                     <div class="form-row">
                         <div class="col-lg-4 col-12">
                             <div class="form-group">
                                 <label class="label" for="formName">Имя *</label>
-                                <input type="text" class="input" id="formName" required>
+                                <input type="text" class="input" id="formName" data-input-required="name">
                             </div>
                         </div>
                         <div class="col-lg-4 col-12">
                             <div class="form-group">
                                 <label class="label" for="formPhone">Телефон *</label>
-                                <input type="text" class="input" id="formPhone" required>
+                                <input type="text" class="input" id="formPhone" placeholder="+7 (000) 000-00-00" data-inputmask data-input-required="phone">
                             </div>
                         </div>
                         <div class="col-lg-4 col-12">
                             <div class="form-group">
                                 <label class="label" for="formEmail">E-mail *</label>
-                                <input type="text" class="input" id="formEmail" required>
+                                <input type="text" class="input" id="formEmail" data-input-required="email">
                             </div>
                         </div>
                     </div>
@@ -896,7 +896,7 @@
                         <div class="col-lg-4 col-12">
                             <div class="form-group">
                                 <label class="label" for="formCadastr">Кадастровый номер</label>
-                                <input type="text" class="input" id="formCadastr" placeholder="XX-XX-XXXXXX-XXX">
+                                <input type="text" class="input" id="formCadastr" placeholder="XX-XX-XXXXXX-XXX" data-inputmask-cadastr data-input-required="cadastr">
                             </div>
                             <div class="form-group">
                                 <label class="label" for="formInvest">Сколько готовы инвестировать в проект</label>
