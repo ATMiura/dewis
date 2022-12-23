@@ -45,7 +45,7 @@
     flex-direction: row;
     gap: 19px;
 
-    padding: 28px 36px;
+    padding: 28px 48px;
 
     color: var(--c-white);
     background: var(--c-black);
@@ -56,6 +56,11 @@
 
     #{$item}__name {
       margin-bottom: 6px;
+    }
+
+    #{$item}__info {
+      max-width: 394px;
+      padding: 0 18px;
     }
   }
 }

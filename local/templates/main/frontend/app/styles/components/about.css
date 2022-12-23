@@ -28,11 +28,16 @@
   --transition: .2s;
 }
 
+.about__text {
+  max-width: 421px;
+}
 .about-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 7px 8px;
+  margin-top: 6px;
+  padding-right: 25px;
 }
 .about-item {
   display: flex;
@@ -60,6 +65,7 @@
   line-height: 16px;
 }
 .about-item__description {
+  margin-top: 8px;
   font-size: 14px;
   line-height: 16px;
 }

@@ -1,11 +1,17 @@
 @import "../variables";
 
 .about {
+  &__text {
+    max-width: 421px;
+  }
   &-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     gap: 7px 8px;
+
+    margin-top: 6px;
+    padding-right: 25px;
   }
 
   &-item {
@@ -40,6 +46,8 @@
     }
 
     &__description {
+      margin-top: 8px;
+
       font-size: 14px;
       line-height: 16px;
     }

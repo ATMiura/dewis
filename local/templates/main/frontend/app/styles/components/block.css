@@ -43,6 +43,7 @@
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 4px;
+  margin-top: 40px;
 }
 .block--pics .block__el {
   flex: 0 0 calc(25% - 3px);
@@ -57,7 +58,7 @@
   text-decoration: none;
 }
 .block-card__picture {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=block.css.map */

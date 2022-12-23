@@ -82,12 +82,23 @@
   }
 
   &--promo {
+    padding: 67px 0 70px;
     color: var(--c-white);
   }
 
   &--about {
+    padding: 60px 0 54px;
+
+    .container {
+      max-width: 1176px;
+    }
+
+    .row {
+      justify-content: space-between;
+    }
+
     .button {
-      margin-top: 30px;
+      margin-top: 21px;
     }
   }
 
@@ -102,7 +113,7 @@
   }
 
   &--form {
-    padding: 100px 0;
+    padding: 100px 0 74px;
 
     color: var(--c-white);
 

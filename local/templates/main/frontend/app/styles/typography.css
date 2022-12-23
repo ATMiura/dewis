@@ -93,7 +93,10 @@ blockquote:not(:last-child) {
 
 ol, ul {
   margin-bottom: 0;
-  padding-left: 17px;
+  padding-left: 21px;
+}
+ol li:not(:last-child), ul li:not(:last-child) {
+  margin-bottom: 6px;
 }
 ol:not(:last-child), ul:not(:last-child) {
   margin-bottom: 40px;

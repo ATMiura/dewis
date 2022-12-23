@@ -28,6 +28,8 @@
     flex-wrap: wrap;
     gap: 4px;
 
+    margin-top: 40px;
+
     #{$block}__el {
       flex: 0 0 calc(25% - 3px);
       max-width: calc(25% - 3px);
@@ -50,7 +52,7 @@
     }
 
     &__picture {
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     }
 
     &__image {

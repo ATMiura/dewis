@@ -139,9 +139,11 @@ img {
 }
 
 .section-bg {
+  margin: 62px 0 66px;
   padding: 60px 0;
 }
 .section-bg--grey {
+  margin: 70px 0;
   color: var(--c-black);
   background: #F7F5FF;
 }

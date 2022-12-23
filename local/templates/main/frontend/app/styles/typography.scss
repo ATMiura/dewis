@@ -71,7 +71,13 @@ blockquote {
 
 ol, ul {
   margin-bottom: 0;
-  padding-left: 17px;
+  padding-left: 21px;
+
+  li {
+    &:not(:last-child) {
+      margin-bottom: 6px;
+    }
+  }
 
   &:not(:last-child) {
     margin-bottom: 40px;
