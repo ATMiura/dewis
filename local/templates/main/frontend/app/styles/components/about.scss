@@ -10,8 +10,10 @@
     justify-content: flex-end;
     gap: 7px 8px;
 
-    margin-top: 6px;
-    padding-right: 25px;
+    @media (min-width: 992px) {
+      margin-top: 6px;
+      padding-right: 25px;
+    }
   }
 
   &-item {
@@ -33,6 +35,11 @@
         font-size: 90px;
         line-height: 1.11;
         color: #242424;
+
+        @media (max-width: 991px) {
+          font-size: 58px;
+          line-height: 1.21;
+        }
       }
 
       &__text {
@@ -50,6 +57,27 @@
 
       font-size: 14px;
       line-height: 16px;
+
+      @media (max-width: 991px) {
+        font-size: 11px;
+        line-height: 12px;
+      }
+    }
+
+    @media (max-width: 991px) {
+      padding: 10px 17px 16px 13px;
+
+      &:nth-child(2),
+      &:last-child {
+        margin-right: auto;
+      }
+
+      &--120 {
+        min-width: 120px;
+      }
+      &--160 {
+        min-width: 160px;
+      }
     }
   }
 }

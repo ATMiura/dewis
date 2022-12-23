@@ -80,5 +80,11 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+@media (max-width: 991px) {
+  .promo {
+    padding-bottom: 48px;
+    background: none;
+  }
+}
 
 /*# sourceMappingURL=promo.css.map */

@@ -34,6 +34,11 @@
 .project-item:not(:last-child) {
   margin-bottom: 40px;
 }
+@media (max-width: 991px) {
+  .project-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
 .project-item__picture {
   position: relative;
   /*&:before {
@@ -58,9 +63,21 @@
     }
   }*/
 }
+@media (max-width: 991px) {
+  .project-item__picture {
+    min-height: 326px;
+  }
+}
 .project-item__image {
   background: var(--c-grey);
   border-radius: 4px;
+}
+@media (max-width: 991px) {
+  .project-item__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 .project-item__slider {
   position: relative;
@@ -77,11 +94,22 @@
 .project-item__name {
   margin-bottom: 32px;
 }
+@media (max-width: 991px) {
+  .project-item__name {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
 .project-item__categories {
   display: flex;
   flex-wrap: wrap;
   gap: 3px 4px;
   margin-bottom: 32px;
+}
+@media (max-width: 991px) {
+  .project-item__categories {
+    gap: 4px;
+  }
 }
 .project-item__category {
   padding: 4px 16px;
@@ -95,6 +123,13 @@
 .project-item__category:hover {
   color: inherit;
   text-decoration: none;
+}
+@media (max-width: 991px) {
+  .project-item__category {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.33;
+  }
 }
 
 /*# sourceMappingURL=projects.css.map */

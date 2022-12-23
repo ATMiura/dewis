@@ -72,6 +72,12 @@ body {
   background-color: var(--c-white);
   min-width: 320px;
 }
+@media (max-width: 991px) {
+  body {
+    line-height: 1.43;
+  }
+}
+
 #svg-sprite {
   display: none !important;
 }
@@ -90,17 +96,43 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   margin: auto;
   padding: 0 20px;
 }
-
-.row {
-  margin: 0 -20px;
+@media (min-width: 992px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    padding: 0 10px;
+    max-width: 736px;
+  }
 }
 
-[class*=col-] {
+.row,
+.form-row {
+  margin: 0 -20px;
+}
+@media (max-width: 991px) {
+  .row,
+  .form-row {
+    margin: 0 -10px;
+  }
+}
+
+[class*=col-],
+.form-row > .col,
+.form-row > [class*=col-] {
   padding: 0 20px;
+}
+@media (max-width: 991px) {
+  [class*=col-],
+  .form-row > .col,
+  .form-row > [class*=col-] {
+    padding: 0 10px;
+  }
 }
 
 picture {
@@ -136,23 +168,6 @@ img {
 }
 .editor p:last-child {
   margin-bottom: 0;
-}
-
-.section-bg {
-  margin: 62px 0 66px;
-  padding: 60px 0;
-}
-.section-bg--grey {
-  margin: 70px 0;
-  color: var(--c-black);
-  background: #F7F5FF;
-}
-.section-bg--black {
-  color: var(--c-grey);
-  background: var(--c-black);
-}
-.section-bg--primary {
-  background: var(--c-primary);
 }
 
 .position-sticky {

@@ -42,11 +42,6 @@
   }
 
   &--black {
-    flex-direction: row;
-    gap: 19px;
-
-    padding: 28px 48px;
-
     color: var(--c-white);
     background: var(--c-black);
 
@@ -61,6 +56,38 @@
     #{$item}__info {
       max-width: 394px;
       padding: 0 18px;
+    }
+
+    @media (min-width: 1200px) {
+      flex-direction: row;
+      gap: 19px;
+      padding: 28px 48px;
+    }
+
+    @media (max-width: 991px) {
+      & {
+        gap: 19px;
+        padding: 33px 20px;
+      }
+
+      #{$item}__picture {
+        min-width: 200px;
+        max-width: 200px;
+      }
+    }
+  }
+
+  @media (max-width: 991px) {
+    #{$item}__name {
+      font-size: 18px;
+      line-height: 1.33;
+    }
+    #{$item}__picture {
+      max-width: 140px;
+    }
+    #{$item}__description {
+      margin: 0 auto;
+      max-width: 254px;
     }
   }
 }

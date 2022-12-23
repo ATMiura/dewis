@@ -31,6 +31,10 @@ body {
   &.overflow-hidden {
 
   }
+
+  @media (max-width: 991px) {
+    line-height: 1.43;
+  }
 }
 
 #svg-sprite {
@@ -52,17 +56,36 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  @media (min-width: 992px) {
+    max-width: 1200px;
+  }
+
   margin: auto;
   padding: 0 20px;
+
+  @media (max-width: 991px) {
+    padding: 0 10px;
+    max-width: 736px;
+  }
 }
 
-.row {
+.row,
+.form-row {
   margin: 0 -20px;
+
+  @media (max-width: 991px) {
+    margin: 0 -10px;
+  }
 }
 
-[class*="col-"] {
+[class*="col-"],
+.form-row > .col,
+.form-row > [class*=col-] {
   padding: 0 20px;
+
+  @media (max-width: 991px) {
+    padding: 0 10px;
+  }
 }
 
 picture, {
@@ -101,24 +124,6 @@ img {
     &:last-child {
       margin-bottom: 0;
     }
-  }
-}
-
-.section-bg {
-  margin: 62px 0 66px;
-  padding: 60px 0;
-
-  &--grey {
-    margin: 70px 0;
-    color: var(--c-black);
-    background: #F7F5FF;
-  }
-  &--black {
-    color: var(--c-grey);
-    background: var(--c-black);
-  }
-  &--primary {
-    background: var(--c-primary);
   }
 }
 

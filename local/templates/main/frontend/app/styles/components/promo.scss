@@ -65,4 +65,9 @@
       text-transform: uppercase;
     }
   }
+
+  @media (max-width: 991px) {
+    padding-bottom: 48px;
+    background: none;
+  }
 }

@@ -6,10 +6,13 @@
 
   &-row {
     gap: 13px 0;
-    margin: 0 -20px;
 
     &:not(:last-child) {
       margin-bottom: 42px;
+
+      @media (max-width: 991px) {
+        margin-bottom: 40px;
+      }
     }
   }
 
@@ -20,13 +23,12 @@
 
     &:not(:last-child) {
       margin-bottom: 13px;
+
+      @media (max-width: 991px) {
+        margin-bottom: 12px;
+      }
     }
   }
-}
-
-.form-row > .col,
-.form-row > [class*=col-] {
-  padding: 0 20px;
 }
 
 .label {
@@ -69,6 +71,10 @@
   width: 100%;
 
   max-height: 118px;
+
+  @media (max-width: 991px) {
+    max-height: 114px;
+  }
 }
 
 .invalid {

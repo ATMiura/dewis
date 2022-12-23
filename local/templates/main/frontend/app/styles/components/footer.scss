@@ -2,13 +2,18 @@
 @import "../variables.scss";
 
 .footer {
-  padding: 13px;
+  padding: 13px 0;
 
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
 
   background: var(--c-grey);
+
+  @media (max-width: 991px) {
+    font-size: 10px;
+    line-height: 1.6;
+  }
 
   a {
     color: #6A7383;
@@ -34,10 +39,18 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 15px 18px;
+
+    @media (max-width: 991px) {
+      gap: 15px 17px;
+    }
   }
 
   .copyright {
     margin-left: 31px;
     color: #10253E;
+
+    @media (max-width: 991px) {
+      margin-left: 20px;
+    }
   }
 }

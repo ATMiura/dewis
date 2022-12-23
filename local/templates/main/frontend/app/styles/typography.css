@@ -43,12 +43,24 @@ h1, .h1 {
   font-size: 44px;
   line-height: 1.14;
 }
+@media (max-width: 991px) {
+  h1, .h1 {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+}
 
 h2, .h2 {
   margin-bottom: 40px;
   font-size: 32px;
   font-weight: 600;
   line-height: 1.19;
+}
+@media (max-width: 991px) {
+  h2, .h2 {
+    font-size: 24px;
+    line-height: 1.33;
+  }
 }
 
 h3, .h3 {
@@ -57,9 +69,17 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  margin-bottom: 8px;
   font-size: 20px;
   line-height: 1.4;
+}
+h4:not(:last-child), .h4:not(:last-child) {
+  margin-bottom: 8px;
+}
+@media (max-width: 991px) {
+  h4, .h4 {
+    font-size: 18px;
+    line-height: 1.33;
+  }
 }
 
 h5, .h5 {
@@ -89,6 +109,12 @@ blockquote {
 }
 blockquote:not(:last-child) {
   margin-bottom: 40px;
+}
+@media (max-width: 991px) {
+  blockquote {
+    font-size: 24px;
+    line-height: 1.33;
+  }
 }
 
 ol, ul {
