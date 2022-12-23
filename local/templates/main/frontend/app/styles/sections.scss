@@ -3,16 +3,14 @@
 .section {
   $section: &;
 
+  padding: 70px 0;
+
   &:first-of-type {
     /*padding-bottom: 70px;*/
   }
 
-  &:not(:first-of-type) {
-    padding: 70px 0;
-  }
-
   &:last-of-type {
-    padding-bottom: 0;
+    //padding-bottom: 0;
   }
 
   &__inner {
@@ -104,20 +102,22 @@
   }
 
   &--form {
-    padding: 0 !important;
+    padding: 100px 0;
+
     color: var(--c-white);
+
+    background-repeat: no-repeat;
+    background-position: center top;
     background-color: var(--c-black);
+    background-size: cover;
+    background-image: url("../images/content/form-shape.svg");
 
     #{$section}__inner {
       max-width: 1440px;
     }
 
     .form-wrapper {
-      padding: 100px 76px;
 
-      background-repeat: no-repeat;
-      background-position: center top;
-      background-image: url("../images/content/form-shape.svg");
     }
 
     .block {

@@ -28,14 +28,11 @@
   --transition: .2s;
 }
 
-.section:first-of-type {
-  /*padding-bottom: 70px;*/
-}
-.section:not(:first-of-type) {
+.section {
   padding: 70px 0;
 }
-.section:last-of-type {
-  padding-bottom: 0;
+.section:first-of-type {
+  /*padding-bottom: 70px;*/
 }
 .section__inner {
   max-width: 1280px;
@@ -98,18 +95,16 @@
   text-align: center;
 }
 .section--form {
-  padding: 0 !important;
+  padding: 100px 0;
   color: var(--c-white);
+  background-repeat: no-repeat;
+  background-position: center top;
   background-color: var(--c-black);
+  background-size: cover;
+  background-image: url("../images/content/form-shape.svg");
 }
 .section--form .section__inner {
   max-width: 1440px;
-}
-.section--form .form-wrapper {
-  padding: 100px 76px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-image: url("../images/content/form-shape.svg");
 }
 .section--form .block {
   margin-bottom: 40px;
