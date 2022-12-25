@@ -19,6 +19,11 @@ h1, .h1 {
     font-size: 32px;
     line-height: 1.25;
   }
+
+  @media (max-width: 767px) {
+    font-size: 26px;
+    line-height: 1.23;
+  }
 }
 
 h2, .h2 {
@@ -31,6 +36,10 @@ h2, .h2 {
   @media (max-width: 991px) {
     font-size: 24px;
     line-height: 1.33;
+  }
+
+  @media (max-width: 767px) {
+    line-height: 1.17;
   }
 }
 

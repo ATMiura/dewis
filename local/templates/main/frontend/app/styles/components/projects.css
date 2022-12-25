@@ -68,6 +68,11 @@
     min-height: 326px;
   }
 }
+@media (max-width: 767px) {
+  .project-item__picture {
+    min-height: 202px;
+  }
+}
 .project-item__image {
   background: var(--c-grey);
   border-radius: 4px;
@@ -129,6 +134,26 @@
     padding: 4px 8px;
     font-size: 12px;
     line-height: 1.33;
+  }
+}
+@media (max-width: 767px) {
+  .project-item {
+    margin: 0 -17px;
+  }
+  .project-item:not(:last-child) {
+    margin-bottom: 21px;
+  }
+  .project-item__content {
+    padding: 25px 34px 20px;
+  }
+  .project-item__date {
+    margin-bottom: 3px;
+  }
+  .project-item__name {
+    margin-bottom: 14px;
+  }
+  .project-item__categories {
+    margin-bottom: 25px;
   }
 }
 

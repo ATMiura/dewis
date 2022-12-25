@@ -67,6 +67,18 @@
     min-height: 104px;
   }
 }
+@media (max-width: 767px) {
+  .block--pics .block__el {
+    flex: 0 0 calc(50% - 3px);
+    max-width: calc(50% - 3px);
+    min-height: 83px;
+  }
+}
+@media (max-width: 767px) {
+  .block--pics {
+    margin-top: 33px;
+  }
+}
 .block-card__link {
   color: var(--c-black);
 }
@@ -80,11 +92,24 @@
     max-height: 114px;
   }
 }
+@media (max-width: 767px) {
+  .block-card__image {
+    width: initial;
+  }
+}
 .block-card h4 {
   margin-top: 16px;
 }
 .block-card h4:not(:last-child) {
   margin-top: 24px;
+}
+@media (max-width: 767px) {
+  .block-card h4:not(:last-child) {
+    margin-top: 19px;
+  }
+}
+.block-card:not(:last-child) {
+  margin-bottom: 33px;
 }
 
 /*# sourceMappingURL=block.css.map */

@@ -89,6 +89,14 @@
     max-width: 200px;
   }
 }
+@media (max-width: 767px) {
+  .expert-item--black {
+    padding: 30px 10px;
+  }
+  .expert-item--black .expert-item__info {
+    padding: 0;
+  }
+}
 @media (max-width: 991px) {
   .expert-item .expert-item__name {
     font-size: 18px;

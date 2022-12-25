@@ -55,6 +55,11 @@
       font-weight: 600;
       font-size: 20px;
       line-height: 30px;
+
+      @media (max-width: 767px) {
+        font-size: 18px;
+        line-height: 1.33;
+      }
     }
 
     &__position {
@@ -64,10 +69,19 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
     }
+
+    @media (max-width: 767px) {
+      margin-bottom: 32px;
+    }
   }
 
   @media (max-width: 991px) {
     padding-bottom: 48px;
     background: none;
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 60px;
+    padding-bottom: 69px;
   }
 }

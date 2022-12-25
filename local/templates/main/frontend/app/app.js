@@ -80,4 +80,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     return false;
   });
+
+  $('.js-show-more').on('click',function (e) {
+    e.preventDefault();
+
+    $(this).closest('.show-more-block').toggleClass('show');
+  })
 });

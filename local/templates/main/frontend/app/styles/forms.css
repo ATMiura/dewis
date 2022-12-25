@@ -43,6 +43,11 @@
     margin-bottom: 40px;
   }
 }
+@media (max-width: 767px) {
+  .form-row:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 .form-group {
   display: flex;
   flex-direction: column;
@@ -96,6 +101,11 @@
 @media (max-width: 991px) {
   .textarea {
     max-height: 114px;
+  }
+}
+@media (max-width: 767px) {
+  .textarea {
+    max-height: 160px;
   }
 }
 

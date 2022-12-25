@@ -73,6 +73,12 @@
   font-size: 20px;
   line-height: 30px;
 }
+@media (max-width: 767px) {
+  .promo-person__name {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
 .promo-person__position {
   font-weight: 600;
   font-size: 10px;
@@ -80,10 +86,21 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+  .promo-person {
+    margin-bottom: 32px;
+  }
+}
 @media (max-width: 991px) {
   .promo {
     padding-bottom: 48px;
     background: none;
+  }
+}
+@media (max-width: 767px) {
+  .promo {
+    padding-top: 60px;
+    padding-bottom: 69px;
   }
 }
 

@@ -1,9 +1,20 @@
 @import "../variables";
 
 .about {
+  &__title {
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+
   &__text {
     max-width: 421px;
+
+    @media (max-width: 767px) {
+      margin-top: 33px;
+    }
   }
+
   &-list {
     display: flex;
     flex-wrap: wrap;
@@ -13,6 +24,11 @@
     @media (min-width: 992px) {
       margin-top: 6px;
       padding-right: 25px;
+    }
+
+    @media (max-width: 767px) {
+      gap: 8px 6px;
+      justify-content: flex-start;
     }
   }
 
@@ -67,16 +83,32 @@
     @media (max-width: 991px) {
       padding: 10px 17px 16px 13px;
 
+      &--120 {
+        width: 120px;
+        min-width: 120px;
+      }
+
+      &--160 {
+        width: 160px;
+        min-width: 160px;
+      }
+    }
+
+    @media (max-width: 991px) and (min-width: 768px) {
       &:nth-child(2),
       &:last-child {
         margin-right: auto;
       }
+    }
 
-      &--120 {
-        min-width: 120px;
+    @media (max-width: 767px) {
+      order: 2;
+
+      &:first-child {
+        order: 0;
       }
-      &--160 {
-        min-width: 160px;
+      &:nth-child(3) {
+        order: 1;
       }
     }
   }

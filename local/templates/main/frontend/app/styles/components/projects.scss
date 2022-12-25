@@ -40,6 +40,10 @@
     @media (max-width: 991px) {
       min-height: 326px;
     }
+
+    @media (max-width: 767px) {
+      min-height: 202px;
+    }
   }
 
   &__image {
@@ -110,6 +114,30 @@
 
       font-size: 12px;
       line-height: 1.33;
+    }
+  }
+
+  @media (max-width: 767px) {
+    margin: 0 -17px;
+
+    &:not(:last-child) {
+      margin-bottom: 21px;
+    }
+
+    &__content {
+      padding: 25px 34px 20px;
+    }
+
+    &__date {
+      margin-bottom: 3px;
+    }
+
+    &__name {
+      margin-bottom: 14px;
+    }
+
+    &__categories {
+      margin-bottom: 25px;
     }
   }
 }

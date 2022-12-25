@@ -44,6 +44,16 @@
       @media (max-width: 991px) {
         min-height: 104px;
       }
+
+      @media (max-width: 767px) {
+        flex: 0 0 calc(50% - 3px);
+        max-width: calc(50% - 3px);
+        min-height: 83px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      margin-top: 33px;
     }
   }
 
@@ -62,6 +72,10 @@
         width: 100%;
         max-height: 114px;
       }
+
+      @media (max-width: 767px) {
+        width: initial;
+      }
     }
 
     h4 {
@@ -69,7 +83,15 @@
 
       &:not(:last-child) {
         margin-top: 24px;
+
+        @media (max-width: 767px) {
+          margin-top: 19px;
+        }
       }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 33px;
     }
   }
 }

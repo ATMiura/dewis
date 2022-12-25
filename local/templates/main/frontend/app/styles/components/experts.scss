@@ -75,6 +75,14 @@
         max-width: 200px;
       }
     }
+
+    @media (max-width: 767px) {
+      padding: 30px 10px;
+
+      #{$item}__info {
+        padding: 0;
+      }
+    }
   }
 
   @media (max-width: 991px) {
