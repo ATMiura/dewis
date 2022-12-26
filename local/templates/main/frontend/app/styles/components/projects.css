@@ -65,12 +65,12 @@
 }
 @media (max-width: 991px) {
   .project-item__picture {
-    min-height: 326px;
+    height: 326px;
   }
 }
 @media (max-width: 767px) {
   .project-item__picture {
-    min-height: 202px;
+    height: 202px;
   }
 }
 .project-item__image {
