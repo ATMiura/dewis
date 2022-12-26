@@ -235,7 +235,8 @@ img {
   }
 }
 .show-more-block.show {
-  max-height: 1200px;
+  max-height: 3000px;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */

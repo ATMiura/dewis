@@ -1,0 +1,25 @@
+<svg width="288" height="96" viewBox="0 0 288 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_304_207)">
+<rect x="0.5" width="287" height="96" rx="4" fill="#D3FFDD"/>
+<path d="M-0.5 15H289.5" stroke="black" stroke-width="0.7" stroke-dasharray="4 4"/>
+<path d="M116.5 -70L116.5 116" stroke="black" stroke-width="0.7"/>
+<path d="M-0.5 47H289.5" stroke="black" stroke-width="0.7"/>
+<path d="M-0.5 82H289.5" stroke="black" stroke-width="0.7" stroke-dasharray="4 4"/>
+<ellipse cx="51.5" cy="48" rx="7" ry="6" fill="#D3FFDD"/>
+<path d="M18.5 95L68.4291 23.3475C68.8326 22.7685 69.6927 22.7783 70.0828 23.3664L89.4082 52.4985C89.5934 52.7778 89.9063 52.9457 90.2415 52.9457H101.18C101.614 52.9457 101.998 53.2251 102.132 53.6376L106.735 67.8525C107.026 68.7493 108.282 68.7829 108.62 67.903L115.812 49.183C116.057 48.5454 116.855 48.3355 117.382 48.7702L131.555 60.4624C132.034 60.8578 132.754 60.725 133.061 60.1847L158.109 16.0585C158.473 15.4177 159.381 15.377 159.8 15.9826L177.108 40.9606C177.467 41.4798 178.212 41.5396 178.65 41.0843L190.014 29.2703C190.409 28.8597 191.067 28.8616 191.46 29.2745L221.038 60.3784C221.46 60.8215 222.176 60.7861 222.552 60.3036L269.5 0" stroke="black" stroke-width="0.7"/>
+<ellipse cx="159.5" cy="15.5" rx="6" ry="6.5" fill="#D3FFDD"/>
+<circle cx="222" cy="59.5" r="6.5" fill="#D3FFDD"/>
+<circle cx="159.5" cy="15" r="3" fill="black"/>
+<circle cx="222" cy="59.5" r="3.5" fill="black"/>
+<circle cx="51.5" cy="48" r="3" fill="black"/>
+<ellipse cx="116.5" cy="48" rx="7" ry="6" fill="#D3FFDD"/>
+<circle cx="116.5" cy="48" r="3" fill="black"/>
+<path d="M159.5 -70L159.5 116" stroke="black" stroke-width="0.7"/>
+<path d="M221.5 -70L221.5 116" stroke="black" stroke-width="0.7"/>
+</g>
+<defs>
+<clipPath id="clip0_304_207">
+<rect x="0.5" width="287" height="96" rx="4" fill="white"/>
+</clipPath>
+</defs>
+</svg>

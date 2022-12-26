@@ -197,6 +197,23 @@
   .section--promo {
     padding: 40px 0;
   }
+  .section--promo .container {
+    position: relative;
+    z-index: 1;
+  }
+  .section--promo .section__inner {
+    position: relative;
+  }
+  .section--promo .section__inner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .section--promo .section__inner::after {
+    background-image: url("./images/content/promo-shape-mobile.svg");
+  }
   .section--promo .block__title {
     font-size: 26px;
     line-height: 1.23;
@@ -309,6 +326,8 @@
 @media (max-width: 767px) {
   .section--form {
     padding: 48px 0 92px;
+    background-position: top left;
+    background-image: url("../images/content/form-shape-mobile.svg");
   }
   .section--form .block:not(:last-child) {
     margin-bottom: 27px;

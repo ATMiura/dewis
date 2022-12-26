@@ -84,6 +84,12 @@ document.addEventListener('DOMContentLoaded', function () {
   $('.js-show-more').on('click',function (e) {
     e.preventDefault();
 
-    $(this).closest('.show-more-block').toggleClass('show');
+    if($(this).closest('.show-more-block').hasClass('show')) {
+      $(this).closest('.show-more-block').removeClass('show');
+      $(this).text('↓ Развернуть все этапы');
+    } else {
+      $(this).closest('.show-more-block').addClass('show');
+      $(this).text('↑ Свернуть все этапы');
+    }
   })
 });

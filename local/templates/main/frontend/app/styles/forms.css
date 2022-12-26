@@ -71,6 +71,11 @@
   text-transform: uppercase;
   color: #ACADAE;
 }
+@media (max-width: 767px) {
+  .label {
+    color: var(--c-white);
+  }
+}
 
 .input,
 .textarea {

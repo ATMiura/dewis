@@ -44,6 +44,10 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ACADAE;
+
+  @media (max-width: 767px) {
+    color: var(--c-white);
+  }
 }
 
 .input,

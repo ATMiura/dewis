@@ -17,6 +17,10 @@
 
   a {
     color: #6A7383;
+
+    @media (max-width: 767px) {
+      color: #424551;
+    }
   }
 
   &__container {
