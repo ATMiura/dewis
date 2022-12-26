@@ -90,6 +90,14 @@
   font-size: 12px;
   line-height: 16px;
 }
+@media (max-width: 767px) {
+  .about-item-number__text {
+    top: 12px;
+    left: 2px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
 .about-item__description {
   margin-top: 8px;
   font-size: 14px;
