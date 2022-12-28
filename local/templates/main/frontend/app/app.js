@@ -84,11 +84,20 @@ document.addEventListener('DOMContentLoaded', function () {
   $('.js-show-more').on('click',function (e) {
     e.preventDefault();
 
-    if($(this).closest('.show-more-block').hasClass('show')) {
-      $(this).closest('.show-more-block').removeClass('show');
+    const showMoreBlock = $(this).closest('.show-more-block');
+
+    if(showMoreBlock.hasClass('show')) {
+      showMoreBlock.removeClass('show');
       $(this).text('↓ Развернуть все этапы');
+
+      $('html, body').animate({
+        scrollTop: showMoreBlock.offset().top - 150
+      }, 1500);
+
+      return false;
+
     } else {
-      $(this).closest('.show-more-block').addClass('show');
+      showMoreBlock.addClass('show');
       $(this).text('↑ Свернуть все этапы');
     }
   })

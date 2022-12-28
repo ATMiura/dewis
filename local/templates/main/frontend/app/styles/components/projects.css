@@ -141,7 +141,7 @@
     margin: 0 -17px;
   }
   .project-item:not(:last-child) {
-    margin-bottom: 21px;
+    margin-bottom: 30px;
   }
   .project-item__content {
     padding: 25px 34px 20px;

@@ -22,6 +22,12 @@
       font-size: 14px;
       line-height: 1.36;
     }
+
+    @media (max-width: 767px) {
+      br {
+        display: none;
+      }
+    }
   }
 
   &:not(:last-child) {
@@ -67,14 +73,18 @@
       }
     }
 
+    &__picture {
+      overflow: hidden;
+    }
+
     &__image {
       @media (max-width: 991px) {
         width: 100%;
-        max-height: 114px;
+        //max-height: 114px;
       }
 
       @media (max-width: 767px) {
-        width: initial;
+        //width: initial;
       }
     }
 

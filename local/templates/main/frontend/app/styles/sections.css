@@ -132,7 +132,7 @@
     padding: 40px 0;
   }
   .section--intro:after {
-    display: none;
+    min-height: 504px;
   }
 }
 .section--services .section__body .row {
