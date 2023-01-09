@@ -23,6 +23,7 @@
   }
 
   &__image {
+    max-width: 201px;
     border-radius: 100%;
   }
 
@@ -47,6 +48,10 @@
 
     #{$item}__picture {
       min-width: 291px;
+    }
+
+    #{$item}__image {
+      max-width: initial;
     }
 
     #{$item}__name {

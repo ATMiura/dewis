@@ -44,6 +44,7 @@
   background: none;
 }
 .expert-item__image {
+  max-width: 201px;
   border-radius: 100%;
 }
 .expert-item__info {
@@ -64,6 +65,9 @@
 }
 .expert-item--black .expert-item__picture {
   min-width: 291px;
+}
+.expert-item--black .expert-item__image {
+  max-width: initial;
 }
 .expert-item--black .expert-item__name {
   margin-bottom: 6px;
