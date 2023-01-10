@@ -109,6 +109,9 @@
   .expert-item .expert-item__picture {
     max-width: 140px;
   }
+  .expert-item .expert-item__image {
+    max-width: 100%;
+  }
   .expert-item .expert-item__description {
     margin: 0 auto;
     max-width: 254px;

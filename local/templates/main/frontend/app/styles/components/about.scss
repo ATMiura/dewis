@@ -23,7 +23,7 @@
 
     @media (min-width: 992px) {
       margin-top: 6px;
-      padding-right: 25px;
+      //padding-right: 25px;
     }
 
     @media (max-width: 767px) {
@@ -77,6 +77,8 @@
 
     &__description {
       margin-top: 8px;
+
+      max-width: 130px;
 
       font-size: 14px;
       line-height: 16px;

@@ -98,6 +98,9 @@
     #{$item}__picture {
       max-width: 140px;
     }
+    #{$item}__image {
+      max-width: 100%;
+    }
     #{$item}__description {
       margin: 0 auto;
       max-width: 254px;
