@@ -16,6 +16,12 @@ export default class Sliders {
       const prevEl = $(this).find('.swiper-button-next');
       const nextEl = $(this).find('.swiper-button-prev');
 
+      const slideLength = $(this).find('.swiper-slide').length;
+
+      if(slideLength) {
+        $(this).find('.swiper-button').hide();
+      }
+
       const slider = new Swiper(swiperContainer, {
         spaceBetween: 10,
         slidesPerView: 1,
@@ -25,7 +31,7 @@ export default class Sliders {
         watchSlidesProgress: true,
         lazy: false,
         pagination: {
-          el: pagination,
+          el: slideLength > 1 ? pagination : false,
           clickable: false,
         },
         navigation: {
