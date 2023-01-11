@@ -95,7 +95,7 @@
   margin: 0 auto;
 }
 .section--intro {
-  padding-top: 68px;
+  padding-top: 0;
   padding-bottom: 21px;
   background: var(--c-grey);
 }
@@ -129,7 +129,7 @@
 }
 @media (max-width: 767px) {
   .section--intro {
-    padding: 40px 0;
+    padding: 0 0 40px;
   }
   .section--intro:after {
     min-height: 504px;

@@ -67,20 +67,6 @@ document.addEventListener('DOMContentLoaded', function () {
   App.DataMasks = new DataMasks();
   App.Forms = new Forms();
 
-  const $root = $('html, body');
-
-  $('a[href^="#"]').click(function () {
-    const href = $.attr(this, 'href');
-
-    $root.animate({
-      scrollTop: $(href).offset().top
-    }, 500, function () {
-      window.location.hash = href;
-    });
-
-    return false;
-  });
-
   $('.js-show-more').on('click',function (e) {
     e.preventDefault();
 
@@ -101,4 +87,27 @@ document.addEventListener('DOMContentLoaded', function () {
       $(this).text('↑ Свернуть все этапы');
     }
   })
+
+  $('.header-btn').on('click',function (e) {
+    e.preventDefault();
+    $('body').toggleClass('menu-opened');
+  });
+
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function () {
+        window.location.hash = hash;
+      });
+    }
+  });
+
+  let isMobile = window.matchMedia("(any-pointer:coarse)").matches;
+
+  isMobile ? $('html').addClass('touchevents') : $('html').addClass('no-touchevents');
 });

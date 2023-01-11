@@ -78,7 +78,7 @@
   }
 
   &--intro {
-    padding-top: 68px;
+    padding-top: 0;
     padding-bottom: 21px;
 
     background: var(--c-grey);
@@ -116,7 +116,7 @@
     }
 
     @media (max-width: 767px) {
-      padding: 40px 0;
+      padding: 0 0 40px;
 
       &:after {
         min-height: 504px;
