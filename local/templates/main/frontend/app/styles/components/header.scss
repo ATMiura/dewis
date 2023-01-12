@@ -531,6 +531,10 @@ header.animated,
   opacity: .6
 }
 
+.final-header nav > ul > li {
+  margin-bottom: 0;
+}
+
 .header-btn {
   text-transform: uppercase;
   font-size: 12px;
