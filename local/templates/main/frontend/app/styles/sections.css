@@ -244,14 +244,14 @@
     align-items: center;
   }
 }
-.section--about .button {
+.section--about .btn {
   margin-top: 21px;
 }
 @media (max-width: 991px) {
   .section--about h2 {
     margin-bottom: 30px;
   }
-  .section--about .button {
+  .section--about .btn {
     margin-top: 15px;
   }
 }
@@ -317,7 +317,7 @@
     font-size: 14px;
     line-height: 19px;
   }
-  .section--form .button {
+  .section--form .btn {
     max-width: 286px;
     width: 100%;
     justify-content: center;
